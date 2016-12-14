@@ -202,9 +202,14 @@ it -down-> (IT outsourcing);
 @enduml
 '>
 
-### 2. Business processes
-_Identify six business processes that New Century performs, and explain who has primary responsibility for each process. Construct the Organizational chart structured by department and basic business-processes._
-
+TODO:
+- [ ] BSC, compare with the performance Prism
+- [ ] Archi/BPMN Modelling of 1-2 processes
+- [ ] KPI - full descr (who's responsible, how, how often, when - show on the process diagram)
+- [ ] Goal tree - remake
+- [ ] Summary with recommendations
+- revealing a 'hidden goal'
+- [ ] presentation 
 ----
 
 **Footnotes:**
