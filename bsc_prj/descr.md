@@ -106,8 +106,10 @@ Regulators |  lack of bureaucracy, confidence in data
 Title | Who's responsible | Data required  |  Data generated
 --- | --- | --- | ---
 Gathering statistics about clients, suppliers and employee | Marketing | Inventory lists, supplies usage records, suppliers info, patients personal and financial data | Statistics
---- | --- | --- | ---
-- processes of gathering statistics about clients, suppliers and employee
+Promo campaign template implementing | Marketing | New b2b customers' data | Documentation
+Staff accessment| HR | Staff records old | Staff records new
+
+
 - customer service strategy
 - proactive traces
 - customer access tools
@@ -135,10 +137,13 @@ Hiring a new stuff member	| Fred Brown |	New stuff member's personal info |	New 
 Thus the sample KPIs can be suggested:
 Title | Rationale | Target  |  Data Source(s) | W
 --- | --- | --- | --- | ---
-Amount of b2b clients | More companies trust the NCWG => better promotion of wellness | _ | Clients DB |
-AVG % of b2b's employee involved in the program | The wellness community in the company size | _ | Customer surveys |
-AVG % of returning  b2с customers | Wellness community quality | _ | Clients DB, customer surveys |
-Accordance between demographic profile of the design client and a real client | The better we predict the client's profile the more relevant service can be suggested | Marketing service | Client records, surveys |
+Amount of b2b clients | More companies trust the NCWG => better promotion of wellness | Marketing service | Clients DB | 1/4
+AVG % of b2b's employee involved in the program | The wellness community in the company size | Marketing service | Customer surveys | 1/4
+AVG % of returning  b2с customers | Wellness community quality | Marketing service | Clients DB, customer surveys | 1/4
+Accordance between demographic profile of the design client and a real client | The better we predict the client's profile the more relevant service can be suggested | Marketing service | Client records, surveys | 1/4
+Patient Wait Time | --- | Patient intake | Patients records | 1/2
+Patient Satisfaction | --- | Patient intake | Patients records | 1/2
+Staff turnover | --- | HR | Staff records | 1
 
 
 #### Organisation structure
@@ -199,34 +204,6 @@ it -down-> (IT outsourcing);
 
 ### 2. Business processes
 _Identify six business processes that New Century performs, and explain who has primary responsibility for each process. Construct the Organizational chart structured by department and basic business-processes._
-
-
-
-### 5. IT System Recommendations
-_Based on what you know at this point, is it likely that you will recommend a transaction processing system, a business support system, or a user productivity system? What about an ERP system? Explain your reasons._
-
-As it was mentioned in case study, the main goal of the new IT system implementation is to support the current clinic’s operations and future growth. The actual processes in the clinic are based on the paper documents and some legacy systems.
-
-The main recommendation is to focus on the marketing strategies that will allow to make a client vortex for the companies that want to make a "boxed" service of workplace wellness and prevention medicine.
-As they seem to be not very experienced with IT and marketing we'd recommend:
-- hire 1-2 experienced marketing professionals who will develop the marketing strategies and make them outsource most of the low-level work in this sphere.  
-- the same thing can be done with IT. We can suggest to outsource the IT support for the clinic's IT systems (see below) and IT support for marketing activities. 1 or 2 IT specialists (or managers) should be hired to coordinate all the outsourced work and make the IT starategy.
-
-As we can see in the business processes table above, some processes require the same income data and some of them depend on the data produced by other processes. So reducing the paper flow can cause a significant speed-up in data flows and the rise of efficiency of the processes.
-
-We don’t think that implementing only one of suggested systems is enough for any business.
-So, we suggest a combination of
-- a user productivity system can help with staying on the schedule for all the employee and can help managing the communications with the customers;
-- a transaction processing system will help the monetary side of the company in managing the accounts receivable and insurance issues;
-- a business support system as each part of the company needs access to some part of information in order to do their job. Doctors need information to help patients. Patient billing requires customer personal information as well as insurance information. The appointment manager needs information on the doctors' schedules.
-
-If the amount of resources for IT transformation is limited we can suggest a step-by-step (or agile) implementation in the following order:
-- transaction processing system
-- user productivity system
-- a business support system
-
-The ERP system is not needed as there is no need for everyone to get access to all of the company data.
-
 
 ----
 
